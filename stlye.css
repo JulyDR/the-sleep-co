@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Temporary Style */
-* {
-    padding: 0.5rem;
-    border: 1px solid rgb(220, 220, 220);
-}
-
-body {border: none;}
-html {border: none;}
 
 /* Image styles */
 .bg-image {
@@ -24,8 +16,123 @@ html {border: none;}
 
 .padded    {padding: 5%;}
 .padded-sm {padding: 1rem;}
+.padded-lg {padding: 10%;}
 
 .bg-dark {
     background-color: #192B37;
     color: white;
 }
+
+.tall-50    {min-height: 50vh;}
+.tall-60    {min-height: 60vh;}
+.tall-70    {min-height: 70vh;}
+.tall-80    {min-height: 80vh;}
+.tall-90    {min-height: 90vh;}
+.tall-100   {min-height: 100vh;}
+
+
+/* Typography styles */
+
+body {
+    font-family: 'Catamaran', sans-serif;
+    color: #192B37;
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    line-height: 1;
+}
+
+p {
+    font-weight: 200;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+p:last-child {
+        margin-bottom: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+a:hover {
+    color: #fbbe00;
+}
+
+.featured-text  {color: #fbbe00;}
+.white-text     {color: white;}
+
+.big-text       {font-size: 4.5rem;}
+.medium-text    {
+    font-size: 2rem;
+    line-height: 1.1;
+}
+.small-text     {font-size: 1.5rem;}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: rgb(120, 120, 125);
+}
+
+.quote-icon {
+    font-size: 6rem;
+    display: inline-block;
+    color: rgb(120, 120, 125);
+    line-height: 1;
+}
+
+.font-weight-light {font-weight: 200;}
+.font-weight-normal {font-weight: normal;}
+.font-weight-extrabold {font-weight: 800;}
+
+.text-left      {text-align: left;}
+.text-center    {text-align: center;}
+.text-right     {text-align: right;}
+
+/*  Header & Footer Styles */
+header {
+    background-image: url('images/the-sleep-co-bed.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header h3 {
+    font-size: 5.5rem;
+    line-height: 1;
+}
+
+footer a {
+    border: none;
+}
+
+/* background-images */
+.bg-room {
+    background-image: url(/images/the-sleep-co-room.jpg);
+}
+.bg-dog {
+    background-image: url(/images/the-sleep-co-dog.jpg);
+    background-position: 50% 35%;
+}
+
+.pg-pillow {
+    background-image: url(/images/the-sleep-co-pillow.jpg);
+    background-position: 50% 57%;
+}
+
+/* icon grid */
+.fas {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
