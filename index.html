@@ -96,7 +96,7 @@
         </section>
 
         <!-------------------------Footer ---------------------------------------------------->
-        <footer class="padded grid-spaceBetween bg-dark">
+        <footer class="padded-bottom grid-spaceBetween bg-dark">
             <div class="col-4-bottom">
                 <h2> Let's <br><span class="featured-text">connect</span></h2>
                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, quis. Adipisci ratione omnis ipsa eveniet laborum quas nostrum debitis iste deleniti possimus nisi, vel error vitae magni, maxime voluptates neque.</p>
@@ -109,6 +109,83 @@
             </div>
         </footer>
 
+        <!---------------------------This is the contact format -------------------->
+        <section class="bg-dark padded">  
+            <h2 class="text-center">You want to sleep like a baby, 
+                <br><span class="featured-text">order here</span> directly!</h2>
+            <form>
+                    <label for="_name"> Your Name </label>
+                    <input type="text" name="_name" id="_name" placeholder="Name" required>
+
+                    <label for="_replyto">Your Email </label>
+                    <input type="email" name="_replyto" id="_replyto" placeholder="Email" required>
+
+                    <label for="phone">Your Phone </label>
+                    <input type="tel" name="phone" id="phone" placeholder="Telephone">
+
+                    <Label for="size">Choose your preferred mattress</Label>
+
+                <section class="bg-dark paddded grid center">
+                    <div class="col-6"> 
+                        <input type="radio">
+                        <label>kingsize</label>
+                        <input type="radio">
+                        <label>queensize</label>
+                        <input type="radio">
+                        <label>twin</label>
+                    </div>
+
+                    <div class="col-6"> 
+                        <input type="radio">
+                        <label>soft</label>
+                        <input type="radio">
+                        <label>medium</label>
+                        <input type="radio">
+                        <label>hard</label>
+                    </div>
+
+                    <div class="col-4"> 
+                        <label for="color"> Choose a Color </label>
+                        <input type="color" name="color" id="color" class="padded">
+                    </div>
+
+                    <div class="col-4"> 
+                        <label for="date"> Preferred Delivery Date </label>
+                        <input type="date" name="date" id="date">
+                    </div>
+
+                    <div class="col-4"> 
+                        <label for="time"> Preferred Delivery Time </label>
+                        <input type="time" name="time" id="time" min="09:00" max="17:00">
+                    </div>
+
+                    <div class="col-4"> 
+                        <input type="checkbox">
+                        <label>yes</label>
+                        <input type="checkbox">
+                        <label>no</label>
+                    </div>
+
+                    <div class="col-8"> 
+                        <label for="promo">How did you hear from us</label>
+                        <select list="promo" name="promo" id="promo">
+                        <datalist id="occasion">
+                            <option value="Friends&Family">Friends&Family</option>
+                             <option value="Social Media">Social Media</option>
+                            <option value="TV/Radion Advertisment">TV Advertisement</option>
+                            <option value="Other">Other</option>      
+                      </datalist>
+                    </select>
+                    </div>
+
+                </section>          
+              
+                <label for="message col-12">Do you want to tell us more?</label>
+                <textarea name="message col-12" id="message" placeholder="Let us know anything you want to share"></textarea>
+
+                <button tzpe="submit"> Send message </button>
+            </form>
+        </section>
 
 
     </body>
