@@ -12,6 +12,18 @@
     min-height: 10rem;
 }
 
+.logo {
+    color: white; 
+    padding: 0.5rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: none;
+   
+    
+  }
+
 /* Universal styles and utility classes */
 
 .padded    {padding: 5%;}
@@ -25,6 +37,7 @@
     color: white;
 }
 
+.tall-40    {min-height: 40vh;}
 .tall-50    {min-height: 50vh;}
 .tall-60    {min-height: 60vh;}
 .tall-70    {min-height: 70vh;}
@@ -100,23 +113,38 @@ a:hover {
 .text-center    {text-align: center;}
 .text-right     {text-align: right;}
 
+
 /*  Header & Footer Styles */
+
 header {
-    background-image: url('images/the-sleep-co-bed.jpg');
-    background-size: cover;
-    background-position: center;
+    padding: 2%;
+    background-color: #192B37;
 }
 
-header h3 {
-    font-size: 5.5rem;
-    line-height: 1;
+nav a {
+    padding: 8% 4%;
+    border: none;
+    color: white;
+    
 }
-
 
 footer a {
     border: none;
     
 }
+
+/* Welcome Banner */
+.welcome {
+    background-image: url('images/the-sleep-co-bed.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome-size {
+    font-size: 5.5rem;
+    line-height: 1;
+}
+
 
 /* background-images */
 .bg-room {
@@ -127,9 +155,43 @@ footer a {
     background-position: 50% 35%;
 }
 
-.pg-pillow {
+.bg-pillow {
     background-image: url(/images/the-sleep-co-pillow.jpg);
     background-position: 50% 57%;
+}
+
+.bg-bed {
+    background-image: url(https://source.unsplash.com/I8kTKM17Ktc);
+    background-position: 50% 57%;
+}
+
+.bg-person-1 {
+    background-image: url(https://source.unsplash.com/OhKElOkQ3RE);
+    background-position: 50% 57%;
+    border-radius: 10px 30px;
+}
+
+.bg-person-2 {
+    background-image: url(https://source.unsplash.com/JoM_lC1WAnE);
+    background-position: 50% 57%;
+    border-radius: 10px 30px;
+}
+
+.bg-person-3 {
+    background-image: url(https://source.unsplash.com/ym--mSBZ0ro);
+    background-position: 50% 57%;
+    border-radius: 10px 30px;
+}
+
+.bg-person-4 {
+    background-image: url(https://source.unsplash.com/IF9TK5Uy-KI);
+    background-position: 30% 70%;
+    border-radius: 10px 30px;
+}
+
+.bg-sleep {
+    background-image: url(https://source.unsplash.com/CwIU33KGToc);
+    background-position: 30% 97%;
 }
 
 /* icon grid */
@@ -180,3 +242,8 @@ form button:hover {
     background-color: #fbbe00;
 }
 
+.checkmark {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+}

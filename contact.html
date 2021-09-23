@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <!-- This is the head of our html where we add external resources and metadata -->
+    <head>
+        <title> Contact Sleep Co </title>
+
+        <!-- this is our font awesome icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
+        <!-- This is our gridlex -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+       
+        <!-- Google fotns - catamaran (200, 400, 500, 800) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&display=swap" rel="stylesheet">
+        
+        <!-- This is our custom stylesheet -->
+        <link href="stlye.css" rel="stylesheet">
+    </head>
+
+    <!-- This is the body, this is where all of your page content goes -->
+    <body>
+
+        <!------------------------Navigation Bar ------------------------>
+        <header class="grid">
+            <div class="col-2-middle">
+              <a href="#" class="logo">
+                <h2 > Logo </h2>
+              </a>
+            </div>
+            <nav class="col-10-middle text-right">
+              <a href="/index.html"> Home </a>
+              <a href="/about.html"> About</a>
+              <a href="/contact.html">Contact</a>
+            </nav>
+          </header>
+
+
+        <!------------------------ Banner------------------------------------------------------>
+        <section class="padded text-center bg-sleep tall-70 grid bg-image">
+            <div class="col-12-middle">
+                <h3 class="big-text"> 
+                    <span>You want to sleep like </span>  
+                    <br><span class="featured-text">a baby,</span>
+                </h3>
+            </div>
+            
+        </section>
+
+        <!-- -------------------------This is the contact format --------------------> 
+        <section class="bg-dark padded">  
+            <h2 class="text-center">  
+                <br><span class="featured-text">order here</span> directly!</h2>
+            <form>
+                    <label for="_name"> Your Name </label>
+                    <input type="text" name="_name" id="_name" placeholder="Name" required>
+
+                    <label for="_replyto">Your Email </label>
+                    <input type="email" name="_replyto" id="_replyto" placeholder="Email" required>
+
+                    <label for="phone">Your Phone </label>
+                    <input type="tel" name="phone" id="phone" placeholder="Telephone">
+
+                    <Label for="size">Choose your preferred mattress</Label>
+
+                <section class="bg-dark paddded grid-spaceBetween">
+                    <div class="col-5-bottom"> 
+                        <input type="radio">
+                        <label>kingsize</label>
+                        <input type="radio">
+                        <label>queensize</label>
+                        <input type="radio">
+                        <label>twin</label>
+                    </div>
+
+                    <div class="col-5-bottom"> 
+                        <input type="radio">
+                        <label>soft</label>
+                        <input type="radio">
+                        <label>medium</label>
+                        <input type="radio">
+                        <label>hard</label>
+                    </div>
+
+                    <div class="col-4"> 
+                        <label for="color"> Choose a Color </label>
+                        <input type="color" name="color" id="color" class="padded">
+                    </div>
+
+                    <div class="col-4"> 
+                        <label for="date"> Preferred Delivery Date </label>
+                        <input type="date" name="date" id="date">
+                    </div>
+
+                    <div class="col-4"> 
+                        <label for="time"> Preferred Delivery Time </label>
+                        <input type="time" name="time" id="time" min="09:00" max="17:00">
+                    </div>
+
+                    <div class="col-4"> 
+                        <input type="checkbox">
+                        <label>yes</label>
+                        <input type="checkbox">
+                        <label>no</label>
+                    </div>
+
+                    <div class="col-8"> 
+                        <label for="promo">How did you hear from us</label>
+                        <select list="promo" name="promo" id="promo">
+                        <datalist id="occasion">
+                            <option value="Friends&Family">Friends&Family</option>
+                             <option value="Social Media">Social Media</option>
+                            <option value="TV/Radion Advertisment">TV Advertisement</option>
+                            <option value="Other">Other</option>      
+                      </datalist>
+                    </select>
+                    </div>
+
+                </section>          
+              
+                <label for="message col-12">Do you want to tell us more?</label>
+                <textarea name="message col-12" id="message" placeholder="Let us know anything you want to share"></textarea>
+
+                <button type="submit"> Send message </button>
+            </form>
+      </section>
+
+          <!-------------------------Footer ---------------------------------------------------->
+          <footer class="padded-bottom grid-spaceBetween bg-dark">
+            <div class="col-4-bottom">
+                <h2> Let's <br><span class="featured-text">connect</span></h2>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, quis. Adipisci ratione omnis ipsa eveniet laborum quas nostrum debitis iste deleniti possimus nisi, vel error vitae magni, maxime voluptates neque.</p>
+            </div>
+            <div class="col-5-bottom">
+                <p> <strong>Call:</strong> <a href="tel:#">1234 5678</a> </p>
+                <p> <strong>Email:</strong> <a href="mailto:#">hello@testwebpage </a></p>
+                <P> <strong>Address:</strong> 55 Main Road, NY </P>
+                <p> <strong>Instagram:</strong> <a href="https://www.instagram.com/thesleepco">@the sleepco</a> </p>
+            </div>
+        </footer>
+        
+    </body>
+</html>
